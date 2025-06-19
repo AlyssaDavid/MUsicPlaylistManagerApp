@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MUsicPlaylistManagerApp</string>
+    <string name="background">background</string>
+    <string name="enter_song_name">Enter Song Name</string>
+    <string name="enter_artist_name">Enter Artist Name</string>
+    <string name="comments">Comments</string>
+    <string name="Enter_song_name">Enter Song Name</string>
+    <string name="Enter_artist_name">Enter Artist Name</string>
+    <string name="background2">background</string>
+    <string name="add_to_playlist">Add To Playlist</string>
+    <string name="tap_a_song_to_remove_it">Tap a song to remove it</string>
+    <string name="add_to_playlists">Add to Playlist</string>
+    <string name="background3">background</string>
+    <string name="show_playlist_details">Show Playlist Details</string>
+    <string name="add_to_playlist2">Add to Playlist</string>
+    <string name="detailed_view">Detailed View</string>
+    <string name="exit">Exit</string>
+    <string name="show_average_rating">Show Average Rating</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="average_rating">Average Rating</string>
+    <string name="average" />
+    <string name="averages">Average</string>
+</resources>

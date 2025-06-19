@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="447dp"
+       android:layout_height="974dp"
+       android:layout_marginStart="24dp"
+       android:layout_marginTop="4dp"
+       android:contentDescription="@string/background"
+       android:scaleType="centerCrop"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.391"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/background" />
+
+   <EditText
+       android:id="@+id/DialogSong"
+       android:layout_width="326dp"
+       android:layout_height="62dp"
+       android:autofillHints=""
+       android:fontFamily="sans-serif-light"
+       android:hint="@string/Enter_song_name"
+       android:inputType= "textPersonName"
+       android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+       android:textColor="@color/white"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.497"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.115" />
+
+   <EditText
+       android:id="@+id/DialogArtist"
+       android:layout_width="334dp"
+       android:layout_height="0dp"
+       android:layout_marginTop="168dp"
+       android:layout_marginBottom="292dp"
+       android:autofillHints=""
+       android:fontFamily="sans-serif-light"
+       android:hint="@string/Enter_artist_name"
+       android:inputType= "textPersonName"
+       android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+       android:textColor="@color/white"
+       app:layout_constraintBottom_toTopOf="@+id/DialogComment"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.545"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.253" />
+
+
+   <RatingBar
+       android:id="@+id/DialogRating"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:numStars="5"
+       android:rating="3"
+       android:stepSize="1.0"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.567"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.925" />
+
+   <EditText
+       android:id="@+id/DialogComment"
+       android:layout_width="303dp"
+       android:layout_height="55dp"
+       android:layout_marginStart="42dp"
+       android:layout_marginEnd="42dp"
+       android:layout_marginBottom="152dp"
+       android:autofillHints=""
+       android:hint="@string/comments"
+       android:inputType="textMultiLine"
+       android:minLines="2"
+       android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+       android:textColor="@color/white"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/DialogArtist"
+       tools:ignore="TextViewEdits" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
